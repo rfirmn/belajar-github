@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #1976d2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+            color: #1976d2;
+        }
+        .card p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>120</h2>
+            <p>Users</p>
+        </div>
+        <div class="card">
+            <h2>75</h2>
+            <p>Orders</p>
+        </div>
+        <div class="card">
+            <h2>18</h2>
+            <p>Messages</p>
+        </div>
+    </div>
+</body>
+</html>
